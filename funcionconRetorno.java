@@ -1,8 +1,12 @@
 import java.util.Scanner;
 
+@SuppressWarnings("resource")
 public class funcionconRetorno {
 
+    
     public static void main(String[] args) {
+        
+        
         Scanner scanner = new Scanner(System.in);
 
         int mayor = encontrarMayor(scanner.nextInt(), scanner.nextInt(), scanner.nextInt());
