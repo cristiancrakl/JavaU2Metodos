@@ -4,15 +4,10 @@ public class App {
 
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("ingrese los numeros a ser sumados");
+        App calculadora=new App();
 
-        float a = scanner.nextFloat();
-        float b = scanner.nextFloat();
-        
-
-        float Resultado = sumar(a, b);
-
-        System.out.println(Resultado);
+        System.out.println(calculadora.sumar(4.1, 2.3));
+        System.out.println(calculadora.sumar(2, 4));
 
     }
 
@@ -22,7 +17,7 @@ public class App {
 
     }
 
-    public static float sumar(float a,float b){
+    public static double sumar(double a,double b){
 
         return a+b;
 
