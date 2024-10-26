@@ -64,10 +64,15 @@ public class AreaFiguras {
         }
     }
 
-    public static void main(String[] args) {
+    public static void run() {
 
         AreaFiguras run = new AreaFiguras();
         run.app();
+
+    }
+
+    public static void main(String[] args) {
+        run();
 
     }
 
