@@ -128,10 +128,10 @@ class Villano extends Personaje {
 // Clase principal para probar la simulación de batalla entre un héroe y un villano
 public class batallasuperheroes {
     public static void main(String[] args) {
-        // Crear una instancia de un superhéroe llamado Deadpool
+        // Crear una instancia de un superhéroe  Deadpool
         SuperHero heroe = new SuperHero("Deadpool", 30, 20, 100, true);
 
-        // Crear una instancia de un villano llamado Doctor Doom
+        // Crear una instancia de un villano  Doctor Doom
         Villano villano = new Villano("Doctor Doom", 25, 15, 120, true);
 
         // Mostrar las estadísticas iniciales de ambos personajes
